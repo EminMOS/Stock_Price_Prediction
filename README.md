@@ -4,18 +4,18 @@ This project aims to develop a Java application that retrieves both historical a
 
 Components
 
-Data Retrieval
+Data Retrieval: 
 Connection to the Alpha Vantage API to query stock prices (including symbol search)
 
-Data Processing
+Data Processing: 
 Methods to calculate key metrics (e.g., moving average, volatility, drawdown)
 
-Forecast Module
+Forecast Module: 
 A simple model (e.g., linear regression) to predict future prices
 
-Visualization
+Visualization: 
 Charts (using JFreeChart or JavaFX) to display price history and forecasts
 
-User Interface (GUI)
-Option to enter a company name or a ticker symbol
+User Interface (GUI): 
+Option to enter a company name or a ticker symbol. 
 Interactive display of the results (historical data, statistical analysis, forecasts)
