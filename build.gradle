@@ -1,19 +1,44 @@
 plugins {
-    id 'java'
+    id 'application'               // Für die Ausführung der Anwendung
+    id 'org.openjfx.javafxplugin' version '0.0.13' // Für JavaFX
 }
 
-group = 'org.example'
-version = '1.0-SNAPSHOT'
-
 repositories {
-    mavenCentral()
+    mavenCentral() // Sucht nach Abhängigkeiten in der Maven-Zentralbibliothek
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
+    // 🟢 JavaFX (für die Benutzeroberfläche)
+    implementation 'org.openjfx:javafx-controls:20'
+    implementation 'org.openjfx:javafx-fxml:20'
+
+    // 🟠 HTTP-Client (Für Alpha Vantage API)
+    implementation 'com.squareup.okhttp3:okhttp:4.9.3'
+
+    // 🟡 JSON-Parser (Um die API-Antworten zu verarbeiten)
+    implementation 'com.google.code.gson:gson:2.9.0'
+
+    // 🔵 DL4J (Deep Learning für LSTM-Modell)
+    implementation 'org.deeplearning4j:deeplearning4j-core:1.0.0-beta7'
+    implementation 'org.nd4j:nd4j-native-platform:1.0.0-beta7'
+
+    // 🟤 Logging (Hilft beim Fehlersuchen)
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+    implementation 'org.apache.logging.log4j:log4j-core:2.14.1'
+
+    // 🟠 Lombok (Vereinfacht das Programmieren von Klassen)
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    // 🧪 JUnit (Für spätere Tests)
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 }
 
-test {
-    useJUnitPlatform()
+application {
+    mainClass = 'org.example.stock.Main' // Startpunkt der Anwendung
+}
+
+javafx {
+    version = "20"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
