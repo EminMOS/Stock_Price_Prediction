@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29a714cb-0fb6-417a-8225-8137eb3b94d6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stock/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stock/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stock/service/api/AlphaVantageAPIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stock/service/api/AlphaVantageAPIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stock/model/HistoricalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stock/model/HistoricalData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/stock/service/DataPreprocessingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/stock/service/DataPreprocessingService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +107,7 @@
       <workItem from="1739396269343" duration="2392000" />
       <workItem from="1739575683401" duration="2230000" />
       <workItem from="1739712123069" duration="2733000" />
-      <workItem from="1739781400034" duration="998000" />
+      <workItem from="1739781400034" duration="1302000" />
     </task>
     <servers />
   </component>
